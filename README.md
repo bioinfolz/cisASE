@@ -52,7 +52,7 @@ File should be a table separated txt consisting of three columns, which are SNP 
 #####VI. Annotation file
 Annotation file should be contained in exon and gene level detection. Human and mouse annotation file can be downloaded from this page, or derived from Ensemble biomart. Or users can generate their own annotation file containing the following columns,
 
-Column 1, chromosome (without prefix “chr”)
+Column 1, chromosome
 
 Column 2, gene id
 
