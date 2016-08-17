@@ -14,7 +14,7 @@ Email:
 
 Zhi Liu: liuzhi_2015@outlook.com, liuzhi2011@sibs.ac.cn
 
-Xiao Dong: biosinodx@gmail.com
+Xiao Dong: biosinodx@gmail.com, xiao.dong@einstein.yu.edu
 
 Yixue Li: yxli@sibs.ac.cn
 
