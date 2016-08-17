@@ -8,9 +8,16 @@ Updated date: 2016.08.16
 #####
 ## Author and License
 
-Author: Zhi Liu
+Author: Zhi Liu, Xiao Dong, Yixue Li
 
-Email: liuzhi_2015@outlook.com, liuzhi2011@sibs.ac.cn
+Email: 
+
+Zhi Liu: liuzhi_2015@outlook.com, liuzhi2011@sibs.ac.cn
+
+Xiao Dong: biosinodx@gmail.com
+
+Yixue Li: yxli@sibs.ac.cn
+
 
 Licensed under the GNU Affero General Public License version 3 or later
 
