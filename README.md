@@ -23,7 +23,7 @@ Licensed under the GNU Affero General Public License version 3 or later
 
 #####
 
-##DEPENDENCIES
+## DEPENDENCIES
 
 perl 5.10
 
@@ -33,11 +33,11 @@ perl modules  Statistics::R, Statistics::Descriptive
 
 Currently Unix/Linux is supported 
 #####
-##USAGE
+## USAGE
 
 To get the usage of cisASE, run the script
 
-######perl cisASE.1.0.2.pl
+perl cisASE.1.0.2.pl
 
 To run examples, use the test script in the examples directory:
 
