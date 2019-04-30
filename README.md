@@ -133,7 +133,7 @@ For the base quality encoding format, if you run FastQC on your file, they will 
 
 Times of simulation to decide a decision threshold for likelihood test. In all of our analysis, we set the simulation times as 2000. When parameter –S is not specified, no simulation will be performed, but we have given a recommended LOD at significant level 0.05 and 0.01 based on the application on our real dataset. However, please notice that since the LOD threshold is generated based on real dataset, variance exists for dataset of different quality and coverage, if computational ability allowed, please always set –S, or at least performing simulation on several samples out of your whole panel of dataset.
 
-**Quick Examples
+**Quick Examples**
 
 **SNV level**
 
