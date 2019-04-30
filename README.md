@@ -37,12 +37,12 @@ Currently Unix/Linux is supported
 
 To get the usage of cisASE, run the script
 
-`*perl cisASE.1.0.2.pl*`
+*perl cisASE.1.0.2.pl*
 
 To run examples, use the test script in the examples directory:
 
-`*cd examples
-sh run.test.sh*`
+*cd examples
+sh run.test.sh*
 
 **Input prepare**
 
