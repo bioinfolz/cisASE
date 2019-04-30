@@ -45,6 +45,7 @@ To run examples, use the test script in the examples directory:
 sh run.test.sh*
 
 **Input prepare
+
 I.** SNV list for analysis
 Data should be a table separated txt consisting of four columns, which are chromosome, position, reference base and alternative base. 
  
@@ -72,6 +73,7 @@ Column 5, exon start
 Column 6, exon end
 
 **Command**
+
 *perl cisASE.pl  [SNV|EXON|GENE]  - X RNA.pileup -L SNV.list -f * -o outfile [options]*
 
 **Required arguments**
