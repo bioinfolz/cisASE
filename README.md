@@ -139,11 +139,11 @@ Times of simulation to decide a decision threshold for likelihood test. In all o
 
 Parallel DNA pileup file is strongly recommended for each level.
 
-*perl cisASE.pl SNV -L snv.list -X RNA.pileup -Y DNA.pileup -F 64 -f 33 -o outfile
+*perl cisASE.pl SNV -L snv.list -X RNA.pileup -Y DNA.pileup -F 64 -f 33 -o outfile*
 
 If DNA data is not available, users can predefine DNA bias by setting -B or leave it as default.
 
-*perl cisASE.pl SNV -L snv.list -X RNA.pileup -B 0.50 -f 33 -o outfile
+*perl cisASE.pl SNV -L snv.list -X RNA.pileup -B 0.50 -f 33 -o outfile*
 
 Both likelihood-based method and chi-square test are provided in cisASE. Set -M to select.
 
@@ -151,17 +151,17 @@ Both likelihood-based method and chi-square test are provided in cisASE. Set -M 
 
 For EXON-level and GENE-level ASE detection, option for annotation file -N should be specified.
 
-*perl cisASE.pl EXON -L snv.list -X RNA.pileup -Y DNA.pileup -F 64 -f 33 -N annotation file -o outfile 
+*perl cisASE.pl EXON -L snv.list -X RNA.pileup -Y DNA.pileup -F 64 -f 33 -N annotation file -o outfile* 
 
 Phasing file is optional for EXON-level and GENE-level ASE detection. If no phasing file is specified, cisASE will perform a pseudo-phasing as described in our paper.
 
-*perl cisASE.pl EXON -L snv.list -X RNA.pileup -Y DNA.pileup -P phased.txt -F 64 -f 33 -N annotation file -o outfile
+*perl cisASE.pl EXON -L snv.list -X RNA.pileup -Y DNA.pileup -P phased.txt -F 64 -f 33 -N annotation file -o outfile*
 
 **GENE level**
 
 GENE-level ASE detection can accept another option -C, to specify whether to consider the constitutive statue of an exon when combining exons to a gene. cisASE will take account  constitutive exons only, and calculate the difference between each alternative exons and the gene when setting -C 1, and take all exons into account when the default setting(-C 0) is applied.
 
-*perl cisASE.pl GENE -L snv.list -X RNA.pileup -Y DNA.pileup -P phased.txt -F 64 -f 33 - N annotation file -C 1 -o outfile
+*perl cisASE.pl GENE -L snv.list -X RNA.pileup -Y DNA.pileup -P phased.txt -F 64 -f 33 - N annotation file -C 1 -o outfile*
 
 ## RELEASE NOTES
 
