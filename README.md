@@ -41,8 +41,9 @@ To get the usage of cisASE, run the script
 
 To run examples, use the test script in the examples directory:
 
-*cd examples
-sh run.test.sh*
+*cd examples*
+
+*sh run.test.sh*
 
 **Input prepare**
 
